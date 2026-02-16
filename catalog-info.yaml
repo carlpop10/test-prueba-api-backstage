@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-petstore-api
+  description: API pública de prueba para aprender Backstage
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  definition:
+    $text: https://petstore.swagger.io/v2/swagger.json
